@@ -1,12 +1,11 @@
 const themeColor = '#407BFF'
-const siteName = 'Launch'
+const siteName = '4x technologies'
 
 const contactInfo = {
-    address: '43 Raymouth Rd. Baltemoer, London 3910',
-    phone1: '+1(123)-456-7890',
-    phone2: '+1(123)-456-7890',
-    email: 'info@mydomain.com',
-    website: 'https://yourwebsite.com/'
+    address: 'Blk 3024 Ubi Road 3 #02-51 Kampong Ubi Industrial Estate Singapore 408652',
+    phone1: '+65 90231687',
+    email: 'xinxiaodong@4xtechnologies.com.sg',
+    website: '4xtechnologies.netify.app'
 }
 
 export { themeColor, siteName, contactInfo }

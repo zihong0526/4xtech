@@ -78,12 +78,7 @@ const labels = {
                 ><span>{{ contactInfo.phone1 }}</span></a
               >
             </li>
-            <li>
-              <a :href="'tel://' + contactInfo.phone2" class="d-flex"
-                ><span class="mt-1 icon-phone mr-2"></span
-                ><span>{{ contactInfo.phone2 }}</span></a
-              >
-            </li>
+            
             <li>
               <a :href="'mailto:' + contactInfo.email" class="d-flex"
                 ><span class="mt-1 icon-envelope mr-2"></span

@@ -1,10 +1,10 @@
 <script setup>
 import { contactInfo } from "../data/items";
 
-const copyrightText = "Copyright 2023, All rights reserved.";
-const column1Heading = "About Launch";
+const copyrightText = "Copyright 2025, All rights reserved.";
+const column1Heading = "About 4x Technologies";
 const column1Text =
-  "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.";
+  "At 4X Technologies, we provide cutting-edge solutions in security, safety, building management, and access control. Our services are designed to enhance the security, efficiency, and safety of your business and facilities, offering peace of mind with the most reliable systems available..";
 const column2Heading = "Projects";
 const column3Heading = "Services";
 const column4Heading = "Contact";
@@ -25,7 +25,7 @@ const socialItems = [
     icon: "icon-facebook",
   },
   {
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/4x-technologies/?originalSubdomain=in",
     icon: "icon-linkedin",
   },
   {
@@ -48,7 +48,7 @@ const socialItems = [
           <div class="widget">
             <h3>{{ connectHeading }}</h3>
             <ul class="list-unstyled social">
-              <li style="margin-right: 4px">
+              <!-- <li style="margin-right: 4px">
                 <a :href="socialItems[0].link"
                   ><span :class="socialItems[0].icon"></span
                 ></a>
@@ -62,21 +62,21 @@ const socialItems = [
                 <a :href="socialItems[2].link"
                   ><span :class="socialItems[2].icon"></span
                 ></a>
-              </li>
+              </li> -->
               <li style="margin-right: 4px">
                 <a :href="socialItems[3].link"
                   ><span :class="socialItems[3].icon"></span
                 ></a>
               </li>
-              <li>
+              <!-- <li>
                 <a :href="socialItems[4].link"
                   ><span :class="socialItems[4].icon"></span
                 ></a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
-        <div class="col-lg-2 ml-auto">
+        <!-- <div class="col-lg-2 ml-auto">
           <div class="widget">
             <h3>{{ column2Heading }}</h3>
             <ul class="list-unstyled float-left links">
@@ -87,8 +87,8 @@ const socialItems = [
               <li><a href="#">Sports Hall</a></li>
             </ul>
           </div>
-        </div>
-        <div class="col-lg-2">
+        </div> -->
+        <div class="col-lg-2 ml-auto">
           <div class="widget">
             <h3>{{ column3Heading }}</h3>
             <ul class="list-unstyled float-left links">
@@ -99,7 +99,7 @@ const socialItems = [
             </ul>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 ml-auto">
           <div class="widget">
             <h3>{{ column4Heading }}</h3>
             <address>{{ contactInfo.address }}</address>

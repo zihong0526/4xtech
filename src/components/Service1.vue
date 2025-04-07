@@ -1,16 +1,16 @@
 <script setup>
 import { themeColor } from "../data/items";
-import personPhoto from "../assets/images/person_1.jpg";
-import mainPhoto from "../assets/images/service1.jpg";
+// import personPhoto from "../assets/images/person_1.jpg";
+import mainPhoto from "/camera.jpg";
 
-const service1Heading = "Digital Services";
-const service1SubHeading = "Selling Digital Services";
-const service1Quote =
-  '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."';
-const personName = "James Anderson";
-const designation = "Facebook, Product Lead";
+const service1Heading = "Services";
+const service1SubHeading = "Our Core Services";
+// const service1Quote =
+//   '"At 4X Technologies, we provide cutting-edge solutions in security, safety, building management, and access control. Our services are designed to enhance the security, efficiency, and safety of your business and facilities, offering peace of mind with the most reliable systems available."';
+// const personName = "James Anderson";
+// const designation = "Facebook, Product Lead";
 function youtubeVideoUrl() {
-  const youtubeVideoId = "FzRH7y3LbQE";
+  const youtubeVideoId = "Yv6-8bR7REQ";
   return `https://www.youtube.com/watch?v=${youtubeVideoId}&amp;t=9s`;
 }
 </script>
@@ -31,9 +31,19 @@ function youtubeVideoUrl() {
           </h3>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast
+              At 4X Technologies, we provide cutting-edge solutions in security,
+              safety, building management, and access control. Our services are
+              designed to enhance the security, efficiency, and safety of your
+              business and facilities, offering peace of mind with the most
+              reliable systems available.
+            </p>
+            <p>
+              From advanced CCTV and access control to fire alarm systems and
+              elevator maintenance, our expert team ensures that your premises
+              are equipped with the best technology to meet your unique needs.
+              “Located at the forefront of innovation, 4X Technologies is
+              committed to providing secure, efficient, and integrated systems
+              that help protect your business and facilities around the clock.”
             </p>
             <ul class="list-unstyled ul-check primary">
               <li>There live the blind texts</li>
@@ -42,20 +52,7 @@ function youtubeVideoUrl() {
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="untree_co-testimonial d-flex">
-              <div class="text">
-                <blockquote>
-                  {{ service1Quote }}
-                </blockquote>
-                <div class="author d-flex">
-                  <div class="pic mr-3">
-                    <img :src="personPhoto" alt="Image" class="img-fluid" />
-                  </div>
-                  <div>
-                    <strong class="d-block">{{ personName }}</strong
-                    ><span class="d-block">{{ designation }}</span>
-                  </div>
-                </div>
-              </div>
+              <div class="text"></div>
             </div>
           </div>
         </div>

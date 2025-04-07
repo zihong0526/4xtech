@@ -1,11 +1,11 @@
 <script setup>
 import { themeColor } from "../data/items";
-import mainPhoto from "../assets/images/about.svg";
+import mainPhoto from "/about.jpg";
 
 const heading = "About";
 const subHeading = "About Us";
-const totalMembers = "50";
-const totalTeam = "20";
+const totalMembers = "20";
+const YearEts = "5";
 </script>
 
 <template>
@@ -24,17 +24,20 @@ const totalTeam = "20";
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="100">
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast
+              Established in October 2018, 4X Technologies Pte. Ltd. is a
+              Singapore-based company specializing in the installation of fire
+              protection and security alarm systems. Our primary goal is to
+              enhance safety and security for both residential and commercial
+              clients across Singapore.​
             </p>
             <p>
-              Separated they
-              <span class="highlight"
-                >live in Bookmarksgrove right at the coast of the
-                Semantics</span
-              >, a large language ocean. A small river named Duden flows by
-              their place and supplies it with the necessary regelialia.
+              <span class="highlight">Our Commitment</span><br>
+              Operating from our office at 3024 Ubi Road 3, #02-51, Kampong Ubi
+              Industrial Estate, Singapore 408652, we are dedicated to
+              delivering high-quality installations and exceptional customer
+              service. Our experienced technicians work closely with clients to
+              assess their specific requirements, ensuring that our solutions
+              are both effective and aligned with their safety objectives.​
             </p>
           </div>
           <ul
@@ -50,16 +53,16 @@ const totalTeam = "20";
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
               <span class="counter d-block"
                 ><span :data-number="totalMembers">{{ totalMembers }}</span
-                ><span>M</span></span
+                ><span></span></span
               >
               <span class="caption-2">Members</span>
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <span class="counter d-block"
-                ><span :data-number="totalTeam">{{ totalTeam }}</span
+                ><span :data-number="YearEts">{{ YearEts }}</span
                 ><span></span
               ></span>
-              <span class="caption-2">Team</span>
+              <span class="caption-2">Years</span>
             </div>
           </div>
         </div>

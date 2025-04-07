@@ -1,10 +1,10 @@
 <script setup>
-import mainPhoto from "../assets/images/hero.svg";
+import mainPhoto from "/hero.jpg";
 import { themeColor } from "../data/items";
 
-const heroHeading = "Promote Your Products by Colorlib";
-const buttonSeeFeature = "See Features";
-const buttonPricing = "Pricing";
+const heroHeading = "Ensuring Safety and Security with Advanced Systems";
+const buttonSeeFeature = "Explore Our Services";
+const buttonPricing = "Get in Touch";
 </script>
 
 <template>
@@ -19,7 +19,11 @@ const buttonPricing = "Pricing";
               data-aos="fade-right"
               data-aos-delay="400"
             >
-              <img :src="mainPhoto" alt="Image" class="img-fluid" />
+              <img
+                :src="mainPhoto"
+                alt="Hero Image"
+                class="img-fluid rounded-border"
+              />
             </div>
             <div class="col-lg-5">
               <h1 class="heading" data-aos="fade-up" data-aos-delay="0">
@@ -27,17 +31,17 @@ const buttonPricing = "Pricing";
               </h1>
               <div class="excerpt" data-aos="fade-up" data-aos-delay="100">
                 <p>
-                  Another cool free html css template by
+                  At
                   <span
                     style="
                       background-color: rgba(64, 123, 255, 0.07);
                       color: #407bff;
                     "
-                    >Colorlib</span
+                    >4x Technologies</span
                   >
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast
+                  , we specialize in installing state-of-the-art fire protection
+                  and security alarm systems, safeguarding your premises with
+                  reliability and precision
                 </p>
               </div>
               <p data-aos="fade-up" data-aos-delay="200">
@@ -52,7 +56,7 @@ const buttonPricing = "Pricing";
                   >{{ buttonSeeFeature }}</a
                 >
                 <a
-                  href="#pricing-section"
+                  href="#contact-section"
                   class="btn btn-outline-primary smoothscroll pricing"
                   :style="[{ color: themeColor }, { borderColor: themeColor }]"
                   >{{ buttonPricing }}</a
@@ -69,5 +73,9 @@ const buttonPricing = "Pricing";
 <style scoped>
 .pricing:hover {
   color: #fff !important;
+}
+.rounded-border {
+  border-radius: 1%; /* This will make the image circular */
+  border: 1px #fff; /* Adjust border thickness and color */
 }
 </style>
