@@ -24,29 +24,29 @@ const labels = {
       </div>
       <div class="row">
         <div class="col-lg-7">
-          <form class="contact-form" data-aos="fade-up" data-aos-delay="100">
+          <form class="contact-form" data-aos="fade-up" data-aos-delay="100" action="https://formspree.io/f/xgvapqod" method="POST">
             <div class="row">
               <div class="col-6">
                 <div class="form-group">
                   <label class="" for="fname">{{ labels.firstName }}</label>
-                  <input type="text" class="form-control" id="fname" />
+                  <input type="text" class="form-control" id="fname" name="First Name"/>
                 </div>
               </div>
               <div class="col-6">
                 <div class="form-group">
                   <label class="" for="lname">{{ labels.lastName }}</label>
-                  <input type="text" class="form-control" id="lname" />
+                  <input type="text" class="form-control" id="lname" name="Last Name"/>
                 </div>
               </div>
             </div>
             <div class="form-group">
               <label class="" for="email">{{ labels.email }}</label>
-              <input type="email" class="form-control" id="email" />
+              <input type="email" class="form-control" id="email" name="Email"/>
             </div>
             <div class="form-group">
               <label class="" for="message">{{ labels.message }}</label>
               <textarea
-                name=""
+                name="Message"
                 class="form-control"
                 id="message"
                 cols="30"

@@ -153,19 +153,20 @@ const total = 4;
           <div class="img-shadow">
             <div class="owl-single no-dots owl-carousel">
               <div class="item">
-                <span class="number">{{ items[0].id }}/{{ total }}</span>
+                <!-- page number -->
+                <!-- <span class="number">{{ items[0].id }}/{{ total }}</span> -->
                 <img :src="mainPhoto1" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
-                <span class="number">{{ items[1].id }}/{{ total }}</span>
+                <!-- <span class="number">{{ items[1].id }}/{{ total }}</span> -->
                 <img :src="mainPhoto2" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
-                <span class="number">{{ items[2].id }}/{{ total }}</span>
+                <!-- <span class="number">{{ items[2].id }}/{{ total }}</span> -->
                 <img :src="mainPhoto3" alt="Image" class="img-fluid" />
               </div>
               <div class="item">
-                <span class="number">{{ items[3].id }}/{{ total }}</span>
+                <!-- <span class="number">{{ items[3].id }}/{{ total }}</span> -->
                 <img :src="mainPhoto4" alt="Image" class="img-fluid" />
               </div>
             </div>

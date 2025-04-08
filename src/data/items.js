@@ -1,5 +1,5 @@
 const themeColor = '#000208'
-const siteName = '4x technologies'
+const siteName = '4X Technologies'
 
 const contactInfo = {
     address: '4x Technologies Pte. Ltd. Blk 3024 Ubi Road 3 #02-51 Kampong Ubi Industrial Estate Singapore 408652',

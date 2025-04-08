@@ -50,13 +50,13 @@ function youtubeVideoUrl() {
               <li>After-Sales Support & Maintenance</li>
             </ul>
           </div>
-          <div class="mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="mb-4" data-aos="fade-up" data-aos-delay="400">
             <div class="untree_co-testimonial d-flex">
               <div class="text"></div>
             </div>
           </div>
         </div>
-        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="400">
+        <div class="col-lg-7 video" data-aos="fade-up" data-aos-delay="400">
           <a :href="youtubeVideoUrl()" class="btn-video" data-fancybox>
             <span class="wrap-icon-play">
               <svg

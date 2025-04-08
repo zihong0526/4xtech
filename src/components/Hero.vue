@@ -1,6 +1,6 @@
 <script setup>
 import mainPhoto from "/hero.jpg";
-import { themeColor } from "../data/items";
+import { themeColor, siteName } from "../data/items";
 
 const heroHeading = "Ensuring Safety and Security with Advanced Systems";
 const buttonSeeFeature = "Explore Our Services";
@@ -37,7 +37,7 @@ const buttonContact = "Get in Touch";
                       background-color: #ededed;
                       color: #404040;
                     "
-                    >4x Technologies</span
+                    >{{ siteName }}</span
                   >
                   , we specialize in installing state-of-the-art fire protection
                   and security alarm systems, safeguarding your premises with
@@ -71,14 +71,6 @@ const buttonContact = "Get in Touch";
 </template>
 
 <style scoped>
-a.btn-outline-primary.contact:hover {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  transform: scale(1.05);
-}
-a.btn-primary.service:hover {
-  transform: scale(1.05);
-}
 .rounded-border {
   border-radius: 1%; /* This will make the image circular */
   border: 1px #fff; /* Adjust border thickness and color */

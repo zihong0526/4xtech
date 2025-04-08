@@ -5,7 +5,7 @@ import mainPhoto from "/about.jpg";
 const heading = "About";
 const subHeading = "About Us";
 const totalMembers = "20";
-const YearEts = "5";
+const YearEts = "6";
 </script>
 
 <template>
