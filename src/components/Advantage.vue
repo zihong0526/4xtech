@@ -1,24 +1,24 @@
 <script setup>
 import { themeColor } from "../data/items";
-const heading = "Advantage of using our products";
-const subHeading = "Far from the countries Vokalia and Consonantia";
+const heading = "Advantage of using our services";
+const subHeading = "Expert Fire & Safety Systems";
 const buttonLearnMore = "Learn More";
 const advantages = [
   {
-    name: "Grow Your Business",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Comprehensive Security & Surveillance Solutions",
+    des: "We offer a complete range of advanced security systems, including CCTV, access control, intercom, and turnstile systems, providing robust protection for your premises 24/7.",
   },
   {
-    name: "Build Products",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Expert Fire & Safety Systems",
+    des: "Our specialized fire alarm systems and emergency toilet call systems ensure the safety of your property, with professional design, installation, and maintenance services.",
   },
   {
-    name: "Success Every Day",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Seamless Building & Facility Management",
+    des: "We provide integrated solutions for building operations, including elevator systems, AV setups, and PA systems, designed to enhance the efficiency and functionality of your facility.",
   },
   {
-    name: "Bring Ideas to Life",
-    des: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Reliable After-Sales Support & Maintenance",
+    des: "With our 24/7 technical support and tailored maintenance packages, you can trust that your systems will always be in top working condition, minimizing downtime and enhancing operational reliability.",
   },
 ];
 </script>
@@ -37,18 +37,18 @@ const advantages = [
           <div class="service horizontal d-flex">
             <div class="service-icon color-1 mb-4">
               <svg
-                class="bi bi-app-indicator"
-                width="1em"
-                height="1em"
-                viewBox="0 0 16 16"
-                fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
               >
                 <path
-                  fill-rule="evenodd"
-                  d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z"
                 />
-                <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
               </svg>
             </div>
             <div class="service-contents">
@@ -56,7 +56,7 @@ const advantages = [
               <p>{{ advantages[0].des }}</p>
               <p>
                 <a
-                  href="#"
+                  href="#contact-section"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
@@ -69,20 +69,22 @@ const advantages = [
           <div class="service horizontal d-flex">
             <div class="service-icon color-2 mb-4">
               <svg
-                class="bi bi-arrow-repeat"
-                width="1em"
-                height="1em"
-                viewBox="0 0 16 16"
-                fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
               >
                 <path
-                  fill-rule="evenodd"
-                  d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z"
                 />
                 <path
-                  fill-rule="evenodd"
-                  d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z"
                 />
               </svg>
             </div>
@@ -91,7 +93,7 @@ const advantages = [
               <p>{{ advantages[1].des }}</p>
               <p>
                 <a
-                  href="#"
+                  href="#contact-section"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
@@ -104,20 +106,17 @@ const advantages = [
           <div class="service horizontal d-flex">
             <div class="service-icon color-3 mb-4">
               <svg
-                class="bi bi-briefcase"
-                width="1em"
-                height="1em"
-                viewBox="0 0 16 16"
-                fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
               >
                 <path
-                  fill-rule="evenodd"
-                  d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"
-                />
-                <path
-                  fill-rule="evenodd"
-                  d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
                 />
               </svg>
             </div>
@@ -126,7 +125,7 @@ const advantages = [
               <p>{{ advantages[2].des }}</p>
               <p>
                 <a
-                  href="#"
+                  href="#contact-section"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
@@ -139,16 +138,17 @@ const advantages = [
           <div class="service horizontal d-flex">
             <div class="service-icon color-4 mb-4">
               <svg
-                class="bi bi-collection"
-                width="1em"
-                height="1em"
-                viewBox="0 0 16 16"
-                fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
               >
                 <path
-                  fill-rule="evenodd"
-                  d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
                 />
               </svg>
             </div>
@@ -157,7 +157,7 @@ const advantages = [
               <p>{{ advantages[3].des }}</p>
               <p>
                 <a
-                  href="#"
+                  href="#contact-section"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a

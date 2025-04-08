@@ -46,8 +46,8 @@ function youtubeVideoUrl() {
               that help protect your business and facilities around the clock.”
             </p>
             <ul class="list-unstyled ul-check primary">
-              <li>There live the blind texts</li>
-              <li>Far far away behind the word</li>
+              <li>Comprehensive Security & Safety Solutions</li>
+              <li>After-Sales Support & Maintenance</li>
             </ul>
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="300">

@@ -55,7 +55,7 @@ const labels = {
             </div>
             <button
               type="submit"
-              class="btn btn-primary"
+              class="btn btn-primary btn-black-hover"
               :style="[
                 { backgroundColor: themeColor },
                 { borderColor: themeColor },
@@ -68,8 +68,17 @@ const labels = {
         <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
           <h3 class="h5 mb-4">{{ contactInfoHeading }}</h3>
           <address class="text-black d-flex">
-            <span class="mt-1 icon-room mr-2"></span
-            ><span>{{ contactInfo.address }}</span>
+            <span class="mt-1 icon-room mr-2"></span>
+            <a
+              :href="`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                contactInfo.address
+              )}`"
+              target="_blank"
+              class="text-black"
+              style="text-decoration: none"
+            >
+              {{ contactInfo.address }}
+            </a>
           </address>
           <ul class="list-unstyled ul-links mb-4">
             <li>
@@ -78,7 +87,7 @@ const labels = {
                 ><span>{{ contactInfo.phone1 }}</span></a
               >
             </li>
-            
+
             <li>
               <a :href="'mailto:' + contactInfo.email" class="d-flex"
                 ><span class="mt-1 icon-envelope mr-2"></span
@@ -91,9 +100,28 @@ const labels = {
                 ><span>{{ contactInfo.website }}</span></a
               >
             </li>
+            <li>
+              <a
+                :href="'https://wa.me/' + [contactInfo.whatsapp]"
+                target="_blank"
+                class="d-flex"
+                ><i class="fab fa-whatsapp mt-1 mr-2"></i
+                ><span>WhatsApp Us</span></a
+              >
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+button.btn-primary.btn-black-hover:hover {
+  transform: scale(1.05);
+}
+address a:hover {
+  color: #407bff;
+  text-decoration: underline;
+}
+</style>

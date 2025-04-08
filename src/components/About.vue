@@ -31,7 +31,7 @@ const YearEts = "5";
               clients across Singapore.​
             </p>
             <p>
-              <span class="highlight">Our Commitment</span><br>
+              <span class="highlight">Our Commitment</span><br />
               Operating from our office at 3024 Ubi Road 3, #02-51, Kampong Ubi
               Industrial Estate, Singapore 408652, we are dedicated to
               delivering high-quality installations and exceptional customer
@@ -45,16 +45,16 @@ const YearEts = "5";
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <li>There live the blind texts</li>
-            <li>Far far away behind the word</li>
-            <li>Their place and supplies</li>
+            <li>Safety First, Always Protected</li>
+            <li>Securing Your Future with Every Installation</li>
+            <li>Trusted Solutions for a Safer Singapore</li>
           </ul>
           <div class="row count-numbers">
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">
               <span class="counter d-block"
                 ><span :data-number="totalMembers">{{ totalMembers }}</span
-                ><span></span></span
-              >
+                ><span></span
+              ></span>
               <span class="caption-2">Members</span>
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">

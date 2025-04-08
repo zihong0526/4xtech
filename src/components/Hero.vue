@@ -4,7 +4,7 @@ import { themeColor } from "../data/items";
 
 const heroHeading = "Ensuring Safety and Security with Advanced Systems";
 const buttonSeeFeature = "Explore Our Services";
-const buttonPricing = "Get in Touch";
+const buttonContact = "Get in Touch";
 </script>
 
 <template>
@@ -34,8 +34,8 @@ const buttonPricing = "Get in Touch";
                   At
                   <span
                     style="
-                      background-color: rgba(64, 123, 255, 0.07);
-                      color: #407bff;
+                      background-color: #ededed;
+                      color: #404040;
                     "
                     >4x Technologies</span
                   >
@@ -47,7 +47,7 @@ const buttonPricing = "Get in Touch";
               <p data-aos="fade-up" data-aos-delay="200">
                 <a
                   href="#features-section"
-                  class="btn btn-primary smoothscroll"
+                  class="btn btn-primary smoothscroll service"
                   style="margin-right: 5px"
                   :style="[
                     { background: themeColor },
@@ -57,9 +57,9 @@ const buttonPricing = "Get in Touch";
                 >
                 <a
                   href="#contact-section"
-                  class="btn btn-outline-primary smoothscroll pricing"
+                  class="btn btn-outline-primary smoothscroll contact"
                   :style="[{ color: themeColor }, { borderColor: themeColor }]"
-                  >{{ buttonPricing }}</a
+                  >{{ buttonContact }}</a
                 >
               </p>
             </div>
@@ -71,8 +71,13 @@ const buttonPricing = "Get in Touch";
 </template>
 
 <style scoped>
-.pricing:hover {
-  color: #fff !important;
+a.btn-outline-primary.contact:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  transform: scale(1.05);
+}
+a.btn-primary.service:hover {
+  transform: scale(1.05);
 }
 .rounded-border {
   border-radius: 1%; /* This will make the image circular */

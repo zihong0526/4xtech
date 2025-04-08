@@ -92,10 +92,12 @@ const socialItems = [
           <div class="widget">
             <h3>{{ column3Heading }}</h3>
             <ul class="list-unstyled float-left links">
-              <li><a href="#">Architect</a></li>
-              <li><a href="#">Interior Design</a></li>
-              <li><a href="#">Landscape Design</a></li>
-              <li><a href="#">Consultancy</a></li>
+              <li><a href="#">CCTV & Access Control</a></li>
+              <li><a href="#">Fire Alarm Systems</a></li>
+              <li><a href="#">PA & AV Solutions</a></li>
+              <li><a href="#">Car Park Barrier Systems</a></li>
+              <li><a href="#">Elevator Systems</a></li>
+              <li><a href="#">Technical Support</a></li>
             </ul>
           </div>
         </div>

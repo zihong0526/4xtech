@@ -1,0 +1,40 @@
+:root {
+
+  --color-1: #6fe7dd;
+  --color-2: #ffc93c;
+  --color-3: #f73859;
+  --color-4: #407BFF;
+}
+
+.service-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-icon svg {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.service-icon.color-1 {
+  background-color: var(--color-1);
+}
+
+.service-icon.color-2 {
+  background-color: var(--color-2);
+}
+
+.service-icon.color-3 {
+  background-color: var(--color-3);
+}
+
+.service-icon.color-4 {
+  background-color: var(--color-4);
+}
+
+
