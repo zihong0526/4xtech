@@ -92,12 +92,18 @@ const socialItems = [
           <div class="widget">
             <h3>{{ column3Heading }}</h3>
             <ul class="list-unstyled float-left links">
-              <li><a href="#">CCTV & Access Control</a></li>
-              <li><a href="#">Fire Alarm Systems</a></li>
-              <li><a href="#">PA & AV Solutions</a></li>
-              <li><a href="#">Car Park Barrier Systems</a></li>
-              <li><a href="#">Elevator Systems</a></li>
-              <li><a href="#">Technical Support</a></li>
+              <li><a href="#contact-section">CCTV & Access Control</a></li>
+              <li><a href="#contact-section">Fire Alarm Systems</a></li>
+              <li><a href="#contact-section">PA & AV Solutions</a></li>
+              <li><a href="#contact-section">Car Park Barrier Systems</a></li>
+              <li><a href="#contact-section">Elevator Systems</a></li>
+              <li>
+                <a href="#contact-section">Pwd Toilet Emergency Call System</a>
+              </li>
+              <li><a href="#contact-section">Intercom System</a></li>
+              <li><a href="#contact-section">Turnstile Installation</a></li>
+              <li><a href="#contact-section">Building Access Control</a></li>
+              <li><a href="#contact-section">Technical Support</a></li>
             </ul>
           </div>
         </div>
