@@ -4,12 +4,12 @@ import { contactInfo } from "../data/items";
 const copyrightText = "Copyright 2025, All rights reserved.";
 const column1Heading = "About 4x Technologies";
 const column1Text =
-  "At 4X Technologies, we provide cutting-edge solutions in security, safety, building management, and access control. Our services are designed to enhance the security, efficiency, and safety of your business and facilities, offering peace of mind with the most reliable systems available..";
+  "Smart CCTV, PA Systems, and Intercom Solutions You Can Trust";
 const column2Heading = "Projects";
 const column3Heading = "Services";
 const column4Heading = "Contact";
 
-const connectHeading = "Connect";
+const connectHeading = "";
 
 const socialItems = [
   {
@@ -62,13 +62,13 @@ const socialItems = [
                 <a :href="socialItems[2].link"
                   ><span :class="socialItems[2].icon"></span
                 ></a>
-              </li> -->
+              </li> 
               <li style="margin-right: 4px">
                 <a :href="socialItems[3].link"
                   ><span :class="socialItems[3].icon"></span
                 ></a>
               </li>
-              <!-- <li>
+               <li>
                 <a :href="socialItems[4].link"
                   ><span :class="socialItems[4].icon"></span
                 ></a>
@@ -92,18 +92,16 @@ const socialItems = [
           <div class="widget">
             <h3>{{ column3Heading }}</h3>
             <ul class="list-unstyled float-left links">
-              <li><a href="#contact-section">CCTV & Access Control</a></li>
-              <li><a href="#contact-section">Fire Alarm Systems</a></li>
-              <li><a href="#contact-section">PA & AV Solutions</a></li>
+              <li><a href="#contact-section">CCTV</a></li>
+              <li><a href="#contact-section">Card Access</a></li>
+              <li><a href="#contact-section">PA System</a></li>
               <li><a href="#contact-section">Car Park Barrier Systems</a></li>
-              <li><a href="#contact-section">Elevator Systems</a></li>
+              <li><a href="#contact-section">Intercom System</a></li>
               <li>
                 <a href="#contact-section">Pwd Toilet Emergency Call System</a>
               </li>
-              <li><a href="#contact-section">Intercom System</a></li>
+              <li><a href="#contact-section">Smart TV</a></li>
               <li><a href="#contact-section">Turnstile Installation</a></li>
-              <li><a href="#contact-section">Building Access Control</a></li>
-              <li><a href="#contact-section">Technical Support</a></li>
             </ul>
           </div>
         </div>
@@ -112,16 +110,7 @@ const socialItems = [
             <h3>{{ column4Heading }}</h3>
             <address>{{ contactInfo.address }}</address>
             <ul class="list-unstyled links mb-4">
-              <li>
-                <a :href="'tel://' + contactInfo.phone1">{{
-                  contactInfo.phone1
-                }}</a>
-              </li>
-              <li>
-                <a :href="'tel://' + contactInfo.phone2">{{
-                  contactInfo.phone2
-                }}</a>
-              </li>
+              
               <li>
                 <a :href="'mailto:' + contactInfo.email"
                   ><span>{{ contactInfo.email }}</span></a

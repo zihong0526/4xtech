@@ -2,7 +2,7 @@
 import mainPhoto from "/hero.jpg";
 import { themeColor, siteName } from "../data/items";
 
-const heroHeading = "Ensuring Safety and Security with Advanced Systems";
+const heroHeading = "Advanced Security Solutions for Modern Businesses";
 const buttonSeeFeature = "Explore Our Services";
 const buttonContact = "Get in Touch";
 </script>
@@ -31,7 +31,7 @@ const buttonContact = "Get in Touch";
               </h1>
               <div class="excerpt" data-aos="fade-up" data-aos-delay="100">
                 <p>
-                  At
+                  
                   <span
                     style="
                       background-color: #ededed;
@@ -39,9 +39,7 @@ const buttonContact = "Get in Touch";
                     "
                     >{{ siteName }}</span
                   >
-                  , we specialize in installing state-of-the-art fire protection
-                  and security alarm systems, safeguarding your premises with
-                  reliability and precision
+                  , Smart CCTV, PA Systems, and Intercom Solutions You Can Trust
                 </p>
               </div>
               <p data-aos="fade-up" data-aos-delay="200">

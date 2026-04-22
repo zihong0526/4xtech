@@ -2,7 +2,7 @@
 import { themeColor, contactInfo } from "../data/items";
 
 const heading = "Get In Touch";
-const subHeading = "Far from the countries Vokalia and Consonantia";
+const subHeading = "4X Technologies";
 const contactInfoHeading = "Contact Information";
 const buttonSendMessage = "Send Message";
 const labels = {
@@ -28,7 +28,7 @@ const labels = {
             class="contact-form"
             data-aos="fade-up"
             data-aos-delay="100"
-            action="https://formspree.io/f/mgvapqyd"
+            action="https://formspree.io/f/xgvapqod"
             method="POST"
           >
             <div class="row">
@@ -102,12 +102,15 @@ const labels = {
             </a>
           </address>
           <ul class="list-unstyled ul-links mb-4">
+            <!--
             <li>
               <a :href="'tel://' + contactInfo.phone1" class="d-flex"
                 ><span class="mt-1 icon-phone mr-2"></span
                 ><span>{{ contactInfo.phone1 }}</span></a
               >
             </li>
+            -->
+
 
             <li>
               <a :href="'mailto:' + contactInfo.email" class="d-flex"
@@ -121,6 +124,7 @@ const labels = {
                 ><span>{{ contactInfo.website }}</span></a
               >
             </li>
+            <!--
             <li>
               <a
                 :href="'https://wa.me/' + [contactInfo.whatsapp]"
@@ -130,6 +134,8 @@ const labels = {
                 ><span>WhatsApp Us</span></a
               >
             </li>
+            -->
+
           </ul>
         </div>
       </div>

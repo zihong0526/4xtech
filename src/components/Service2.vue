@@ -1,29 +1,29 @@
 <script setup>
 import mainPhoto1 from "/Security & Surveillance Solutions.png";
-import mainPhoto2 from "/Fire & Safety Systems.jpeg";
-import mainPhoto3 from "/Building & Facility Management.jpg";
+import mainPhoto2 from "/PA System Installation & Maintenance.jpg";
+import mainPhoto3 from "/Intercom System Installation.jpg";
 import mainPhoto4 from "/Access & Control Systems.jpg";
 
 const items = [
   {
     id: 1,
-    name: "Security & Surveillance Solutions",
-    des: "Advanced CCTV, access control, intercom, and turnstile systems to ensure 24/7 security and efficient visitor management.",
+    name: "CCTV Installation & Configuration",
+    des: "Professional CCTV, intercom, and security system installation designed to provide reliable monitoring, clear communication, and 24/7 protection for commercial, industrial, and residential properties.",
   },
   {
     id: 2,
-    name: "Fire & Safety Systems",
-    des: "Design, installation, and maintenance of fire alarm systems and emergency toilet call systems for maximum safety.",
+    name: "PA System Installation & Maintenance",
+    des: "Complete PA system solutions for clear communication, public announcements, and smooth daily operations.",
   },
   {
     id: 3,
-    name: "Building & Facility Management",
-    des: "Comprehensive solutions including elevator systems, AV setups, and reliable PA systems for smooth facility operations.",
+    name: "Intercom System Installation",
+    des: "Reliable intercom system installation for secure visitor communication and efficient access management.",
   },
   {
     id: 4,
     name: "Access & Control Systems",
-    des: "Secure entry and vehicle access with advanced car park barrier systems and access card solutions.",
+    des: "Advanced access control solutions for secure entry management, card access, and improved building security.",
   },
 ];
 const total = 4;

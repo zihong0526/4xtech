@@ -10,8 +10,8 @@ const service1SubHeading = "Our Core Services";
 // const personName = "James Anderson";
 // const designation = "Facebook, Product Lead";
 function youtubeVideoUrl() {
-  const youtubeVideoId = "Yv6-8bR7REQ";
-  return `https://www.youtube.com/watch?v=${youtubeVideoId}&amp;t=9s`;
+  const youtubeVideoId = "Q_p3pka81uc";
+  return `https://www.youtube.com/embed/${youtubeVideoId}`;
 }
 </script>
 <template>
@@ -31,23 +31,18 @@ function youtubeVideoUrl() {
           </h3>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
             <p>
-              At 4X Technologies, we provide cutting-edge solutions in security,
-              safety, building management, and access control. Our services are
-              designed to enhance the security, efficiency, and safety of your
-              business and facilities, offering peace of mind with the most
-              reliable systems available.
+              At 4X Technologies, we provide professional CCTV, PA system, and intercom solutions, including installation, configuration, maintenance, and system support. Our services are designed to improve security, communication, and operational efficiency for commercial, industrial, and residential properties.
             </p>
             <p>
-              From advanced CCTV and access control to fire alarm systems and
-              elevator maintenance, our expert team ensures that your premises
-              are equipped with the best technology to meet your unique needs.
-              “Located at the forefront of innovation, 4X Technologies is
-              committed to providing secure, efficient, and integrated systems
-              that help protect your business and facilities around the clock.”
+              From surveillance systems and public address systems to intercom and integrated security solutions, our experienced team ensures every project is delivered with reliability, precision, and long-term performance.
             </p>
             <ul class="list-unstyled ul-check primary">
-              <li>Comprehensive Security & Safety Solutions</li>
-              <li>After-Sales Support & Maintenance</li>
+              <li>CCTV Installation & Configuration</li>
+              <li>PA System Setup & Maintenance</li>
+              <li>Intercom System Installation</li>
+              <li>Security System Integration</li>
+              <li>Preventive Maintenance & Troubleshooting</li>
+              <li>After-Sales Support & Technical Assistance</li>
             </ul>
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="400">

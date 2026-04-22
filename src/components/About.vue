@@ -4,8 +4,8 @@ import mainPhoto from "/about.jpg";
 
 const heading = "About";
 const subHeading = "About Us";
-const totalMembers = "20";
-const YearEts = "6";
+const totalMembers = "30";
+const YearEts = "7";
 </script>
 
 <template>
@@ -24,30 +24,22 @@ const YearEts = "6";
           </div>
           <div class="mb-4" data-aos="fade-up" data-aos-delay="100">
             <p>
-              Established in October 2018, 4X Technologies Pte. Ltd. is a
-              Singapore-based company specializing in the installation of fire
-              protection and security alarm systems. Our primary goal is to
-              enhance safety and security for both residential and commercial
-              clients across Singapore.​
+              Established in October 2018, 4X Technologies Pte. Ltd. is a Singapore-based company specializing in CCTV, PA systems, intercom systems, and integrated security solutions. We provide professional installation, configuration, maintenance, and system support for commercial, industrial, and residential projects across Singapore.
+
+Our mission is to deliver reliable security, clear communication, and smart system integration that help businesses and property owners create safer and more efficient environments.
             </p>
             <p>
               <span class="highlight">Our Commitment</span><br />
-              Operating from our office at 3024 Ubi Road 3, #02-51, Kampong Ubi
-              Industrial Estate, Singapore 408652, we are dedicated to
-              delivering high-quality installations and exceptional customer
-              service. Our experienced technicians work closely with clients to
-              assess their specific requirements, ensuring that our solutions
-              are both effective and aligned with their safety objectives.​
-            </p>
+              Based at 3024 Ubi Road 3, #02-51, Kampong Ubi Industrial Estate, Singapore 408652, we are committed to delivering quality workmanship, reliable service, and cost-effective security solutions. Our experienced team works closely with clients to provide trusted CCTV, PA, and intercom systems tailored to every project.</p>
           </div>
           <ul
             class="list-unstyled ul-check primary mb-4"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <li>Safety First, Always Protected</li>
+            <li>Professional CCTV, PA & Intercom Solutions</li>
             <li>Securing Your Future with Every Installation</li>
-            <li>Trusted Solutions for a Safer Singapore</li>
+            <li>Smart Security, Trusted Protection</li>
           </ul>
           <div class="row count-numbers">
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="0">

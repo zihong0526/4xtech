@@ -6,7 +6,7 @@ import { themeColor, siteName } from "../data/items";
     <div class="container">
       <div class="site-navigation">
         <a href="" class="logo m-0 float-left"
-          >{{ siteName }}<span class="text-primary">.</span></a
+          > <img src="/logo.png" alt="4X Technologies Logo" style="height: 20px;" /></a
         >
         <ul class="js-clone-nav d-none d-lg-inline-block site-menu float-left">
           <li class="active">
