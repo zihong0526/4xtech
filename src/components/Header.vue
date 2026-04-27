@@ -24,7 +24,7 @@ import { themeColor, siteName } from "../data/items";
               <li><a href="#" class="nav-link">Menu Three</a></li>
             </ul>
           </li> -->
-          <li><a href="#features-section" class="nav-link">Service</a></li>
+          <li><a href="#services-section" class="nav-link">Service</a></li>
           <!-- <li><a href="#pricing-section" class="nav-link">Pricing</a></li> -->
           <li><a href="#about-section" class="nav-link">About</a></li>
           <li><a href="#contact-section" class="nav-link">Contact</a></li>

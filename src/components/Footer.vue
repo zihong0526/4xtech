@@ -39,92 +39,67 @@ const socialItems = [
   <div class="site-footer">
     <div class="footer-dots"></div>
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-between">
+
+        <!-- Left -->
         <div class="col-lg-4">
           <div class="widget">
             <h3>{{ column1Heading }}</h3>
             <p>{{ column1Text }}</p>
           </div>
+
           <div class="widget">
             <h3>{{ connectHeading }}</h3>
             <ul class="list-unstyled social">
-              <!-- <li style="margin-right: 4px">
-                <a :href="socialItems[0].link"
-                  ><span :class="socialItems[0].icon"></span
-                ></a>
-              </li>
-              <li style="margin-right: 4px">
-                <a :href="socialItems[1].link"
-                  ><span :class="socialItems[1].icon"></span
-                ></a>
-              </li>
-              <li style="margin-right: 4px">
-                <a :href="socialItems[2].link"
-                  ><span :class="socialItems[2].icon"></span
-                ></a>
-              </li> 
-              <li style="margin-right: 4px">
-                <a :href="socialItems[3].link"
-                  ><span :class="socialItems[3].icon"></span
-                ></a>
-              </li>
-               <li>
-                <a :href="socialItems[4].link"
-                  ><span :class="socialItems[4].icon"></span
-                ></a>
-              </li> -->
+              <!-- social icons -->
             </ul>
           </div>
         </div>
-        <!-- <div class="col-lg-2 ml-auto">
-          <div class="widget">
-            <h3>{{ column2Heading }}</h3>
-            <ul class="list-unstyled float-left links">
-              <li><a href="#">La Lega Stadium</a></li>
-              <li><a href="#">France Building</a></li>
-              <li><a href="#">22 New Homes</a></li>
-              <li><a href="#">Manage Center</a></li>
-              <li><a href="#">Sports Hall</a></li>
-            </ul>
-          </div>
-        </div> -->
-        <div class="col-lg-2 ml-auto">
+
+        <!-- Middle (wider now) -->
+        <div class="col-lg-4">
           <div class="widget">
             <h3>{{ column3Heading }}</h3>
-            <ul class="list-unstyled float-left links">
-              <li><a href="#contact-section">CCTV</a></li>
-              <li><a href="#contact-section">Card Access</a></li>
-              <li><a href="#contact-section">PA System</a></li>
-              <li><a href="#contact-section">Car Park Barrier Systems</a></li>
-              <li><a href="#contact-section">Intercom System</a></li>
-              <li>
-                <a href="#contact-section">Pwd Toilet Emergency Call System</a>
-              </li>
-              <li><a href="#contact-section">Smart TV</a></li>
-              <li><a href="#contact-section">Turnstile Installation</a></li>
-            </ul>
+
+            <ul
+  class="list-unstyled float-left links"
+  style="white-space: nowrap;"
+>
+  <li><a href="#contact-section">CCTV Installation & Configuration</a></li>
+  <li><a href="#contact-section">PA System Installation & Configuration</a></li>
+  <li><a href="#contact-section">Intercom Installation & Configuration</a></li>
+  <li><a href="#contact-section">Card Access Installation & Configuration</a></li>
+  <li><a href="#contact-section">Smart TV Installation & Configuration</a></li>
+  <li><a href="#contact-section">Carpark Barrier Installation & Configuration</a></li>
+  <li><a href="#contact-section">Alarm System Installation & Configuration</a></li>
+  <li><a href="#contact-section">Network Installation & Configuration</a></li>
+  <li><a href="#contact-section">PWD System Installation & Configuration</a></li>
+</ul>
           </div>
         </div>
-        <div class="col-lg-3 ml-auto">
+
+        <!-- Right -->
+        <div class="col-lg-3">
           <div class="widget">
             <h3>{{ column4Heading }}</h3>
+
             <address>{{ contactInfo.address }}</address>
+
             <ul class="list-unstyled links mb-4">
-              
               <li>
-                <a :href="'mailto:' + contactInfo.email"
-                  ><span>{{ contactInfo.email }}</span></a
-                >
+                <a :href="'mailto:' + contactInfo.email">
+                  <span>{{ contactInfo.email }}</span>
+                </a>
               </li>
             </ul>
           </div>
         </div>
+
       </div>
+
       <div class="row mt-5">
         <div class="col-12 text-center">
-          <p>
-            {{ copyrightText }}
-          </p>
+          <p>{{ copyrightText }}</p>
         </div>
       </div>
     </div>
